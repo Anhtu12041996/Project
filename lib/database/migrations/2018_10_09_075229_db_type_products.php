@@ -17,8 +17,7 @@ class DbTypeProducts extends Migration
             $table->increments('typeProduct_id');
 
             $table->string('name');
-            $table->text('description');
-
+            
             $table->timestamps();
         });
     }
