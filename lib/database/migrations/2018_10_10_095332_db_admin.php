@@ -16,9 +16,11 @@ class DbAdmin extends Migration
         Schema::create('db_admin', function (Blueprint $table) {
             $table->increments('id');
 
-            $table->string('email');;
+            $table->string('full_name');
+            $table->string('email');
             $table->string('password');
-            $table->tinyInteger('level');
+            $table->string('phone');
+            $table->string('address');
             $table->rememberToken();
 
             $table->timestamps();

@@ -16,7 +16,7 @@ class DbProducts extends Migration
         Schema::create('db_products', function (Blueprint $table) {
             $table->increments('product_id');
 
-            $table->string('name');
+            $table->string('product_name');
             $table->text('description');
             $table->double('unit_price');
             $table->double('promotion_price');

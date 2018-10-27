@@ -16,7 +16,7 @@ class DbCategories extends Migration
         Schema::create('db_categories', function (Blueprint $table) {
             $table->increments('cate_id');
 
-            $table->string('name');
+            $table->string('cate_name');
             
             $table->timestamps();
         });
