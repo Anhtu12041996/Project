@@ -44,6 +44,8 @@
  Loại sản phẩm</a></li>
 			<li><a href="{{ asset('admin/slide') }}"><svg class="glyph stroked landscape"><use xlink:href="#stroked-landscape"/></svg>
 			 Slide</a></li>
+			<li><a href="{{ asset('admin/bill') }}"><svg class="glyph stroked clipboard with paper"><use xlink:href="#stroked-clipboard-with-paper"/></svg>
+			 Đơn hàng</a></li>
 			<li role="presentation" class="divider"></li>
 		</ul>
 		<!-- <svg class="glyph stroked landscape"><use xlink:href="#stroked-landscape"/></svg> -->

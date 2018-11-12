@@ -45,7 +45,7 @@
 							<tbody>
 								@foreach($typeproductlist as $type)
 								<tr>
-									<td>{{$type->name}}</td>
+									<td>{{$type->typeProduct_name}}</td>
 									<td>
 										<a href="{{ asset('admin/typeproduct/edit/'.$type->typeProduct_id) }}" class="btn btn-warning"><span class="glyphicon glyphicon-edit"></span> Sửa</a>
 										<a href="{{ asset('admin/typeproduct/delete/'.$type->typeProduct_id) }}" onclick="return confirm('Bạn có chắc chắn muốn xóa?')" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Xóa</a>

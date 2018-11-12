@@ -20,7 +20,7 @@
 					<form action="" method="POST">	
 						<div class="form-group">
 							<label>Tên loại sản phẩm:</label>
-							<input type="text" name="name" class="form-control" placeholder="Tên danh mục..." value="{{$typeproduct->name}}">
+							<input type="text" name="name" class="form-control" placeholder="Tên danh mục..." value="{{$typeproduct->typeProduct_name}}">
 						</div>
 						<div class="form-group">
 							<input type="submit" name="submit" class="form-control btn btn-primary" placeholder="" value="Cập nhật">

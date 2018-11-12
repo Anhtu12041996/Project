@@ -20,7 +20,7 @@
 					<form action="" method="POST">	
 						<div class="form-group">
 							<label>Tên danh mục:</label>
-							<input type="text" name="name" class="form-control" placeholder="Tên danh mục..." value="{{$cate->name}}">
+							<input type="text" name="name" class="form-control" placeholder="Tên danh mục..." value="{{$cate->cate_name}}">
 						</div>
 						<div class="form-group">
 							<input type="submit" name="submit" class="form-control btn btn-primary" placeholder="" value="Cập nhật">

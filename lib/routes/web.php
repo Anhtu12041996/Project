@@ -99,6 +99,8 @@ Route::group(['namespace'=>'Admin'], function(){
 
 			Route::get('delete/{id}','SlideController@getDeleteSlide');
 		});
+
+		Route::get('/bill','BillController@getBillController');
 	});
 });
 
